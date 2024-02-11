@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Mustang</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top  cabecalho">
+        <div class="container">
+            <img id="logo" src="./images/logo munstang.webp" alt="">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item text-center fw-bold">
+                        <a class="nav-link active" href="#monte-seu">
+                            <i class="bi bi-car-front-fill me-1"></i>
+                            Monte o seu</a>
+                    </li>
+                    <li class="nav-item text-center fw-bold">
+                        <a class="nav-link" href="#ficha-tecnica">
+                            <i class="bi bi-card-checklist me-1"></i>
+                            Ficha tecnica</a>
+                    </li>
+                    <li class="nav-item text-center fw-bold">
+                        <a class="nav-link" href="#entre-contato">
+                            <i class="bi bi-envelope me-1"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="carousel-images" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/img munstang.webp" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/img munstag 7.avif" class="d-block w-100">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-images" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-images" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <div class="container">
+            <h3 class="text-center mt-5 mb-5">
+                O Mustang Mach 1 em vários ângulos.
+            </h3>
+            <div id="cards-carro">
+                <div class="row">
+                    <div  id="card" class="col-lg-3 col-md-6">
+                        <img src="./images/part munstang.webp" alt="">
+                    </div>
+                    <div id="card" class="col-lg-3 col-md-6">
+                        <img src="./images/part munstang 2.jpg" alt="">
+                    </div>
+                    <div id="card" class="col-lg-3 col-md-6">
+                        <img src="./images/part munstang 3.webp" alt="">
+                    </div>
+                    <div id="card" class="col-lg-3 col-md-6">
+                        <img src="./images/part munstang 4.webp" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div  id="card" class="col-lg-3 col-md-6">
+                        <img src="./images/part munstang 5.webp" alt="">
+                    </div>
+                    <div id="card" class="col-lg-3 col-md-6">
+                        <img src="./images/part munstang 6.jpg" alt="">
+                    </div>
+                    <div id="card" class="col-lg-3 col-md-6">
+                        <img src="./images/part munstang 7.webp" alt="">
+                    </div>
+                    <div id="card" class="col-lg-3 col-md-6">
+                        <img src="./images/part munstang 8.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="monte-seu">
+            <h3 class="text-center" id="disponivel-cores">
+                DISPONÍVEL NAS CORES:
+            </h3>
+            <div class="row">
+                <div class="col-12">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="primeira-cor">
+                            <h5 class="text-center">Cinza Dover</h5>
+                            <img src="./images/img munstang 1.avif" class="w-100">
+                        </div>
+                        <div class="tab-pane" id="segunda-cor">
+                            <h5 class="text-center">Vermelho Arizona</h5>
+                            <img src="./images/img munstang 2.avif" class="w-100">
+                        </div>
+                        <div class="tab-pane" id="terceira-cor">
+                            <h5 class="text-center">Preto Astúrias</h5>
+                            <img src="./images/img munstang 3.avif" class="w-100">
+                        </div>
+                        <div class="tab-pane" id="quarta-cor">
+                            <h5 class="text-center">Branco Ártico</h5>
+                            <img src="./images/img munstang 4.avif" class="w-100">
+                        </div>
+                        <div class="tab-pane" id="quinta-cor">
+                            <h5 class="text-center">Cinza Catalunha</h5>
+                            <img src="./images/img munstang 5.avif" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <nav class="nav nav-pills  nav-cardapio justify-content-center">
+                        <button id="botao-cor" data-bs-toggle="tab" data-bs-target="#primeira-cor" class="fw-bold text-start nav-link  active" type="button"> <img src="./images/icon cor.webp" alt=""> </button>
+                        <button id="botao-cor" data-bs-toggle="tab" data-bs-target="#segunda-cor" class="fw-bold text-start nav-link  " type="button"> <img src="./images/icon cor 2.png" alt=""> </button>
+                        <button id="botao-cor" data-bs-toggle="tab" data-bs-target="#terceira-cor" class="fw-bold text-start nav-link  " type="button"> <img src="./images/icon cor 3.avif" alt=""> </button>
+                        <button id="botao-cor" data-bs-toggle="tab" data-bs-target="#quarta-cor" class="fw-bold text-start nav-link  " type="button"> <img src="./images/icon cor 4.png" alt="">  </button>
+                        <button id="botao-cor" data-bs-toggle="tab" data-bs-target="#quinta-cor" class="fw-bold text-start nav-link  " type="button"> <img src="./images/icon cor 5.avif" alt=""> </button>
+                    </nav>
+                    <h5 class="text-center mt-5">
+                        Escolha a cor que mais representa você para o seu Mustang Mach 1
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="ficha-tecnica">
+            <h3 class="text-center mb-5 mt-5">Sobre o Mustang</h3>
+            <div class="row" id="sobre-carro">
+                <div class="col-lg-6 col-sm-12">
+                    <h3 id="titulo-texto">
+                        Exterior e Interior
+                    </h3>
+                    <p>
+                        Novas rodas cinza brilhante, retrovisores, emblemas e aerofólio traseiro em cinza acetinado. Faixas laterais e de capô exclusivas em três cores. Painel em alumínio escovado escurecido, bancos dianteiros com design único e costuras contrastantes.
+                    </p>
+                    <button class="btn btn-primary" type="button">Veja em detalhes</button>
+                </div>
+                <div class="col-lg-6 col-sm-12 p-0">
+                    <img class="w-100 d-block" src="./images/img munstang 1.avif" alt="">
+                </div>
+            </div>
+            <div id="sobre-motor" class="row mt-5 mb-5">
+                <div class="col-lg-6 col-sm-12">
+                    <img class="w-100 d-block" src="./images/motor-mustang.jpg" alt="">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <h3 id="titulo-texto">
+                        Um legado histórico de performance
+                    </h3>
+                    <p>
+                        A edição limitada carrega consigo o legado histórico de performance com a utilização de diversos componentes dos modelos Shelby® GT350 e GT500. O motor 5.0 V8 com novo Sistema de admissão e 483cv, a transmissão automática de 10 velocidades com nova calibração e o sistema de arrefecimento ainda mais eficiente ajudam você a extrair o máximo de performance em qualquer condição. A suspensão MagneRide® com calibração única, as barras estabilizadoras mais firmes, os freios de alta performance Brembo® e a aerodinâmica refinada evidenciam que o Mustang Mach 1 está pronto para as pistas.
+                    </p>
+                    <button class="btn btn-primary" type="button">Veja como funciona</button>
+                </div>
+            </div>
+            <div class="row" id="sobre-carro">
+                <div class="col-lg-6 col-sm-12">
+                    <h3 id="titulo-texto">
+                        Segurança
+                    </h3>
+                    <p>
+                        O Mustang Mach 1 oferece o que há de mais avançado em segurança com tecnologias semiautônomas.
+                    </p>
+                    <button class="btn btn-primary" type="button">Saiba Mais</button>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img  src="./images/img munstag 7.avif" class="d-block w-100 ">
+                </div>
+            </div>
+        </div>
+        <div class="container" id="entre-contato">
+           <div class="row">
+            <h3 class="text-center mt-5 mb-5">
+                <i class="bi bi-chat"></i>
+                Fale conosco
+            </h3>
+            <div class="col-lg-7 col-sm-12">
+                <form>
+                    <label class="form-label fw-bold" for="nome">Seu nome:</label>
+                    <input class="form-control" type="text" id="nome">
+                    <label class="form-label fw-bold" for="email">Email:</label>
+                    <input class="form-control" type="email" id="email">
+                    <label class="form-label fw-bold" for="texto">Sua mensagem:</label>
+                    <textarea class="form-control" id="texto"></textarea>
+                    <button class="btn btn-primary mt-2" type="button">Enviar</button>
+                </form>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="row">
+                    <h3 class="social-text fs-4">
+                        <i class="bi bi-hand-thumbs-up-fill"></i>
+                        Redes sociais
+                    </h3>
+                    <ul class="social-link">
+                        <li class="fs-5 ms-1 me-1">
+                            <a href="#" class="cor-padrao">
+                                <i class="bi bi-facebook titulo-metade"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5 ms-1 me-1">
+                            <a href="#" class="cor-padrao">
+                                <i class="bi bi-instagram titulo-metade"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5 ms-1 me-1">
+                            <a href="#" class="cor-padrao">
+                                <i class="bi bi-youtube titulo-metade"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="row">
+                        <h3 class="fonte fs-4 titulo-metade">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço    
+                        </h3>
+                        <p>
+                            Rua Ceara n°05, bairro centro - São Luis - MA
+                        </p>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </div>
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
